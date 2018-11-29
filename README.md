@@ -6,3 +6,4 @@
 ```
 ./get_aws_billing.sh  | jq '.[] | .Timestamp, .Maximum '
 ```
+
